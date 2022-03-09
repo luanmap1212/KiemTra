@@ -16,5 +16,15 @@ namespace Login1
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            string username = textboxusername.Text;
+            string password = textboxmatkhau.Text;
+            if(username == "admin" && password == "admin")
+            {
+                MessageBox.Show("Login successful");
+            }
+        }
     }
 }

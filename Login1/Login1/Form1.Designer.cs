@@ -49,7 +49,7 @@ namespace Login1
             // textboxusername
             // 
             this.textboxusername.Location = new System.Drawing.Point(190, 83);
-            this.textboxusername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(2);
             this.textboxusername.Name = "textboxusername";
             this.textboxusername.Size = new System.Drawing.Size(163, 20);
             this.textboxusername.TabIndex = 1;
@@ -73,12 +73,13 @@ namespace Login1
             // btnlogin
             // 
             this.btnlogin.Location = new System.Drawing.Point(190, 173);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(86, 26);
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
@@ -90,7 +91,7 @@ namespace Login1
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
